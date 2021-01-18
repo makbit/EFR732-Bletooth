@@ -1,5 +1,5 @@
 # EFR732-Bluetooth
-EFR732 - is a multi-protocol radio board based on the [EFR32MG1P732F256GM32 @40MHz MCU](https://www.silabs.com/wireless/zigbee/efr32mg1-series-1-socs/device.efr32mg1p732f256gm32) from SiliconLabs in QFN32 package. Now this is MCU is announced as deprecated. :-(
+EFR732 - is a multi-protocol radio board based on the [EFR32MG1P732F256GM32 @40MHz MCU](https://www.silabs.com/wireless/zigbee/efr32mg1-series-1-socs/device.efr32mg1p732f256gm32) from the SiliconLabs in the 5x5mm QFN32 package. Now this MCU is announced as deprecated. :disappointed:
 
 This MCU supports:
 * Bluetooth Smart (BLE),
@@ -23,3 +23,6 @@ This MCU integrate a 512kB serial flash in the package.
 The [`Hardware`](Hardware) folder contains Eagle CAD 9.0 schematics files. Component library can be found in my repositories.
 The board schematics can be found in the[`Hardware/EFR732.png`](Hardware/EFR732.png) file.
 
+### TODO
+- [ ] Add firmware folder with examples and some useful stuff.
+- [ ] Write USB-to-UART firmware for EFM8.
